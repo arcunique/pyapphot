@@ -1,0 +1,16 @@
+[values]
+gain = 0.28
+readnoise = 5.75
+airmass = INDEF
+
+[header_keys]
+ut = UT
+exposure = EXPTIME
+obstime = UT
+filter = FILTER
+ra = RA
+dec = DEC
+equinox = INDEF
+st = RA
+date = DATE-AVG
+object = object
