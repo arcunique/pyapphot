@@ -37,7 +37,7 @@ Instructions on installation and use
 ------------------------------------
 Presently, the code is only available on [Github](https://github.com/arcunique/pyapphot). Either download the code or
 use the following line on terminal to install using pip:\
-pip install git+https://github.com/spacetelescope/imexam  #installs from the current master on this repo.
+pip install git+https://github.com/arcunique/pyapphot  #installs from the current master on this repo.
 
 You can import the modules and classes by:
 
