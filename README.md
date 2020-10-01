@@ -32,6 +32,8 @@ Requirements
 * imexam=0.9.1
 * pickle
 * matplotlib 
+* photutils
+* PyQt5
 
 Instructions on installation and use
 ------------------------------------
