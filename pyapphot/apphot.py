@@ -354,7 +354,7 @@ class aperture_phot(object):
             res = list(self._getfrommagfile(output[0], get_t=not flag['obstime'], get_apert=False, get_others=True))
             if not flag['obstime']:
                 t = res.pop(0)
-                self.t = np.array([t[i] for i in np.insert(Nobj[:-1],0,0)])
+                self.t = np.array([t[i] for i in np.insert(np.cumsum(Nobj[:-1]),0,0)])
             exptime, stdev, nsky, flux, area, mag = res
             exptime = segregate(exptime, Nobj)
             stdev = segregate(stdev, Nobj)
