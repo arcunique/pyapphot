@@ -1,0 +1,20 @@
+[values]
+gain = 0.745
+readnoise = 4.3
+
+[header_keys]
+gain = GAIN
+readnoise = READNOIS
+ut = UT
+exposure = EXPTIME
+obstime = DATE-OBS
+date = DATE-OBS
+filter = FILTER
+airmass = AIRMASS
+ra = RA
+dec = DEC
+equinox = EQUINOX
+ha = HA
+st = LST
+imagetype = imagetyp
+object = object

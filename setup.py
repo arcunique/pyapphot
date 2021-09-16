@@ -10,5 +10,5 @@ setup(name='pyapphot',
       url='https://github.com/arcunique/pyapphot',
       author='Aritra Chakrabarty',
       author_email='arcunique1993@gmail.com',
-      install_requires=['numpy', 'pyraf', 'astropy', 'matplotlib', 'imexam', 'PyQt5', 'photutils'],
+      install_requires=['numpy', 'pyraf', 'astropy', 'matplotlib', 'imexam', 'photutils'],
       zip_safe=False)

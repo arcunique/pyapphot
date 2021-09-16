@@ -1,6 +1,8 @@
 ''' All the reduction tasks are defined here which are called in image_management module.'''
 
 from pyraf import iraf as ir
+from iraf import imred
+from iraf import ccdred
 import numpy as np
 from .utils import *
 from astropy.io import fits
@@ -29,15 +31,17 @@ def master_dark_gen(par, dark='@darklist', combine='average', scale='none', outp
     task(input=dark, output=output)
     return output
 
-def master_flat_gen(folder, par, flat='@flatlist', combine='average', normalize=False, output='masterflat.fits'):
-    if os.path.exists(output): os.remove(folder+'/'+output)
+def master_flat_gen(par, flat='@flatlist', combine='average', normalize=False, output='masterflat.fits'):
+    # if os.path.exists(output): os.remove(folder+'/'+output)
+    print(flat)
     task = ir.flatcom
     task.combine = combine
     task.gain = par[0]
     task.rdnoise = par[1]
     task.ccdtype = ' '
     task.process = 'no'
-    task(input=flat, output=output)
+    task.subsets = 'no'
+    task(input=flat, process='no', output=output)
     if normalize==True: output = normalize_frame(output, output)
     return output
 
@@ -50,10 +54,10 @@ def normalize_frame(frame, output):
     fits.writeto(output, fn, h)
     return output
 
-def Pyccdproc(folder, data='@datalist', bias='masterbias.fits', dark='', flat='masterflatn.fits', illum='', fringe='', output='bf_//@datalist', verbose=True):
-    ir.chdir(folder)
+def Pyccdproc(data='@datalist', bias='masterbias.fits', dark='', flat='masterflatn.fits', illum='', fringe='', output='bf_//@datalist', verbose=True):
+    # ir.chdir(folder)
     for fn in filenames2list(output):
-        if os.path.exists(fn): os.remove(folder+'/'+fn)
+        if os.path.exists(fn): os.remove(fn)
     task = ir.ccdproc
     task.unlearn()
     task.ccdtype = ' '

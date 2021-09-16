@@ -574,3 +574,1263 @@ alh2acl310104.f  622.16 1743.54    0.00   6.640  2.3    0.16       4
                  567.60  895.30    0.58   6.656  2.4    0.14       6
 
   Average full width at half maximum (MFWHM) of 6.5845
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:16 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   4.350    0.09       4
+                 566.88  895.25    0.95   4.370    0.09      10
+                 621.42 1743.29    0.37   4.320    0.11       4
+                1288.47  405.10    0.00   4.325    0.12      10
+
+  Average 50% enclosed flux radius of 4.3354
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:16 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   6.312    0.09       4
+                 566.88  895.25    0.95   6.168    0.09      10
+                 621.42 1743.29    0.37   6.080    0.11       4
+                1288.47  405.10    0.00   6.000    0.12      10
+
+  Average full width at half maximum (FWHM) of 6.1106
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:16 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   8.225    0.09       4
+                 566.88  895.25    0.95   8.270    0.09      10
+                 621.42 1743.29    0.37   8.185    0.11       4
+                1288.47  405.10    0.00   8.180    0.12      10
+
+  Average full width at half maximum (GFWHM) of 8.2047
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:16 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   6.317  2.4    0.09       4
+                 566.88  895.25    0.95   6.260  2.4    0.09      10
+                 621.42 1743.29    0.37   6.283  2.4    0.11       4
+                1288.47  405.10    0.00   6.164  2.3    0.12      10
+
+  Average full width at half maximum (MFWHM) of 6.2415
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:17 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   4.375    0.03     -18
+                 567.45  895.10    0.96   4.460    0.02      -9
+                 622.03 1743.31    0.38   4.430    0.04      -6
+                1289.05  404.72    0.00   4.515    0.03       6
+
+  Average 50% enclosed flux radius of 4.4553
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:17 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   6.268    0.03     -18
+                 567.45  895.10    0.96   6.648    0.02      -9
+                 622.03 1743.31    0.38   6.624    0.04      -6
+                1289.05  404.72    0.00   6.720    0.03       6
+
+  Average full width at half maximum (FWHM) of 6.5924
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:18 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   8.283    0.03     -18
+                 567.45  895.10    0.96   8.465    0.02      -9
+                 622.03 1743.31    0.38   8.432    0.04      -6
+                1289.05  404.72    0.00   8.626    0.03       6
+
+  Average full width at half maximum (GFWHM) of 8.4804
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:18 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   6.384  2.5    0.03     -18
+                 567.45  895.10    0.96   6.695  2.6    0.02      -9
+                 622.03 1743.31    0.38   6.662  2.6    0.04      -6
+                1289.05  404.72    0.00   6.683  2.5    0.03       6
+
+  Average full width at half maximum (MFWHM) of 6.6194
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:18 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   4.525    0.13       0
+                 567.71  895.12    0.95   4.660    0.12       0
+                 622.29 1743.33    0.38   4.605    0.14       0
+                1289.18  405.01    0.00   4.695    0.13       3
+
+  Average 50% enclosed flux radius of 4.6310
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:19 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   6.336    0.13       0
+                 567.71  895.12    0.95   6.860    0.12       0
+                 622.29 1743.33    0.38   6.956    0.14       0
+                1289.18  405.01    0.00   6.924    0.13       3
+
+  Average full width at half maximum (FWHM) of 6.8044
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:19 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   8.590    0.13       0
+                 567.71  895.12    0.95   8.863    0.12       0
+                 622.29 1743.33    0.38   8.820    0.14       0
+                1289.18  405.01    0.00   8.931    0.13       3
+
+  Average full width at half maximum (GFWHM) of 8.8223
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:19 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   6.382  2.3    0.13       0
+                 567.71  895.12    0.95   6.819  2.5    0.12       0
+                 622.29 1743.33    0.38   7.024  2.7    0.14       0
+                1289.18  405.01    0.00   6.952  2.5    0.13       3
+
+  Average full width at half maximum (MFWHM) of 6.8361
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:20 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   4.290    0.16      20
+                 567.79  895.54    0.95   4.390    0.16      24
+                 622.29 1743.85    0.37   4.385    0.18      20
+                1289.33  405.37    0.00   4.400    0.19      22
+
+  Average 50% enclosed flux radius of 4.3719
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:20 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   6.716    0.16      20
+                 567.79  895.54    0.95   7.056    0.16      24
+                 622.29 1743.85    0.37   7.112    0.18      20
+                1289.33  405.37    0.00   6.824    0.19      22
+
+  Average full width at half maximum (FWHM) of 6.9153
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:20 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   8.201    0.16      20
+                 567.79  895.54    0.95   8.426    0.16      24
+                 622.29 1743.85    0.37   8.438    0.18      20
+                1289.33  405.37    0.00   8.407    0.19      22
+
+  Average full width at half maximum (GFWHM) of 8.3770
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:20 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   6.710  3.0    0.16      20
+                 567.79  895.54    0.95   7.230  3.6    0.16      24
+                 622.29 1743.85    0.37   7.258  3.6    0.18      20
+                1289.33  405.37    0.00   6.842  2.9    0.19      22
+
+  Average full width at half maximum (MFWHM) of 6.9870
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:21 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   4.530    0.15       4
+                 567.60  895.39    0.96   4.600    0.14       6
+                 622.16 1743.63    0.38   4.650    0.16       4
+                1289.15  405.24    0.00   4.620    0.16       9
+
+  Average 50% enclosed flux radius of 4.6063
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:21 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   6.304    0.15       4
+                 567.60  895.39    0.96   6.676    0.14       6
+                 622.16 1743.63    0.38   6.444    0.16       4
+                1289.15  405.24    0.00   6.716    0.16       9
+
+  Average full width at half maximum (FWHM) of 6.5546
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:21 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   8.609    0.15       4
+                 567.60  895.39    0.96   8.768    0.14       6
+                 622.16 1743.63    0.38   8.837    0.16       4
+                1289.15  405.24    0.00   8.801    0.16       9
+
+  Average full width at half maximum (GFWHM) of 8.7666
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:48:22 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   6.469  2.3    0.15       4
+                 567.60  895.39    0.96   6.674  2.4    0.14       6
+                 622.16 1743.63    0.38   6.655  2.3    0.16       4
+                1289.15  405.24    0.00   6.769  2.5    0.16       9
+
+  Average full width at half maximum (MFWHM) of 6.6634
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:15 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   4.350    0.09       4
+                 566.88  895.25    0.95   4.370    0.09      10
+                 621.42 1743.29    0.37   4.320    0.11       4
+                1288.47  405.10    0.00   4.325    0.12      10
+
+  Average 50% enclosed flux radius of 4.3354
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:15 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   6.312    0.09       4
+                 566.88  895.25    0.95   6.168    0.09      10
+                 621.42 1743.29    0.37   6.080    0.11       4
+                1288.47  405.10    0.00   6.000    0.12      10
+
+  Average full width at half maximum (FWHM) of 6.1106
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:15 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   8.225    0.09       4
+                 566.88  895.25    0.95   8.270    0.09      10
+                 621.42 1743.29    0.37   8.185    0.11       4
+                1288.47  405.10    0.00   8.180    0.12      10
+
+  Average full width at half maximum (GFWHM) of 8.2047
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:16 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   6.317  2.4    0.09       4
+                 566.88  895.25    0.95   6.260  2.4    0.09      10
+                 621.42 1743.29    0.37   6.283  2.4    0.11       4
+                1288.47  405.10    0.00   6.164  2.3    0.12      10
+
+  Average full width at half maximum (MFWHM) of 6.2415
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:16 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   4.375    0.03     -18
+                 567.45  895.10    0.96   4.460    0.02      -9
+                 622.03 1743.31    0.38   4.430    0.04      -6
+                1289.05  404.72    0.00   4.515    0.03       6
+
+  Average 50% enclosed flux radius of 4.4553
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:16 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   6.268    0.03     -18
+                 567.45  895.10    0.96   6.648    0.02      -9
+                 622.03 1743.31    0.38   6.624    0.04      -6
+                1289.05  404.72    0.00   6.720    0.03       6
+
+  Average full width at half maximum (FWHM) of 6.5924
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:17 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   8.283    0.03     -18
+                 567.45  895.10    0.96   8.465    0.02      -9
+                 622.03 1743.31    0.38   8.432    0.04      -6
+                1289.05  404.72    0.00   8.626    0.03       6
+
+  Average full width at half maximum (GFWHM) of 8.4804
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:17 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   6.384  2.5    0.03     -18
+                 567.45  895.10    0.96   6.695  2.6    0.02      -9
+                 622.03 1743.31    0.38   6.662  2.6    0.04      -6
+                1289.05  404.72    0.00   6.683  2.5    0.03       6
+
+  Average full width at half maximum (MFWHM) of 6.6194
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:17 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   4.525    0.13       0
+                 567.71  895.12    0.95   4.660    0.12       0
+                 622.29 1743.33    0.38   4.605    0.14       0
+                1289.18  405.01    0.00   4.695    0.13       3
+
+  Average 50% enclosed flux radius of 4.6310
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:18 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   6.336    0.13       0
+                 567.71  895.12    0.95   6.860    0.12       0
+                 622.29 1743.33    0.38   6.956    0.14       0
+                1289.18  405.01    0.00   6.924    0.13       3
+
+  Average full width at half maximum (FWHM) of 6.8044
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:18 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   8.590    0.13       0
+                 567.71  895.12    0.95   8.863    0.12       0
+                 622.29 1743.33    0.38   8.820    0.14       0
+                1289.18  405.01    0.00   8.931    0.13       3
+
+  Average full width at half maximum (GFWHM) of 8.8223
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:18 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   6.382  2.3    0.13       0
+                 567.71  895.12    0.95   6.819  2.5    0.12       0
+                 622.29 1743.33    0.38   7.024  2.7    0.14       0
+                1289.18  405.01    0.00   6.952  2.5    0.13       3
+
+  Average full width at half maximum (MFWHM) of 6.8361
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:19 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   4.290    0.16      20
+                 567.79  895.54    0.95   4.390    0.16      24
+                 622.29 1743.85    0.37   4.385    0.18      20
+                1289.33  405.37    0.00   4.400    0.19      22
+
+  Average 50% enclosed flux radius of 4.3719
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:19 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   6.716    0.16      20
+                 567.79  895.54    0.95   7.056    0.16      24
+                 622.29 1743.85    0.37   7.112    0.18      20
+                1289.33  405.37    0.00   6.824    0.19      22
+
+  Average full width at half maximum (FWHM) of 6.9153
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:19 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   8.201    0.16      20
+                 567.79  895.54    0.95   8.426    0.16      24
+                 622.29 1743.85    0.37   8.438    0.18      20
+                1289.33  405.37    0.00   8.407    0.19      22
+
+  Average full width at half maximum (GFWHM) of 8.3770
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:19 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   6.710  3.0    0.16      20
+                 567.79  895.54    0.95   7.230  3.6    0.16      24
+                 622.29 1743.85    0.37   7.258  3.6    0.18      20
+                1289.33  405.37    0.00   6.842  2.9    0.19      22
+
+  Average full width at half maximum (MFWHM) of 6.9870
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:20 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   4.530    0.15       4
+                 567.60  895.39    0.96   4.600    0.14       6
+                 622.16 1743.63    0.38   4.650    0.16       4
+                1289.15  405.24    0.00   4.620    0.16       9
+
+  Average 50% enclosed flux radius of 4.6063
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:20 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   6.304    0.15       4
+                 567.60  895.39    0.96   6.676    0.14       6
+                 622.16 1743.63    0.38   6.444    0.16       4
+                1289.15  405.24    0.00   6.716    0.16       9
+
+  Average full width at half maximum (FWHM) of 6.5546
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:20 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   8.609    0.15       4
+                 567.60  895.39    0.96   8.768    0.14       6
+                 622.16 1743.63    0.38   8.837    0.16       4
+                1289.15  405.24    0.00   8.801    0.16       9
+
+  Average full width at half maximum (GFWHM) of 8.7666
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 18:54:21 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   6.469  2.3    0.15       4
+                 567.60  895.39    0.96   6.674  2.4    0.14       6
+                 622.16 1743.63    0.38   6.655  2.3    0.16       4
+                1289.15  405.24    0.00   6.769  2.5    0.16       9
+
+  Average full width at half maximum (MFWHM) of 6.6634
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:23 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   4.350    0.09       4
+                 566.88  895.25    0.95   4.370    0.09      10
+                 621.42 1743.29    0.37   4.320    0.11       4
+                1288.47  405.10    0.00   4.325    0.12      10
+
+  Average 50% enclosed flux radius of 4.3354
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:23 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   6.312    0.09       4
+                 566.88  895.25    0.95   6.168    0.09      10
+                 621.42 1743.29    0.37   6.080    0.11       4
+                1288.47  405.10    0.00   6.000    0.12      10
+
+  Average full width at half maximum (FWHM) of 6.1106
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:24 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   8.225    0.09       4
+                 566.88  895.25    0.95   8.270    0.09      10
+                 621.42 1743.29    0.37   8.185    0.11       4
+                1288.47  405.10    0.00   8.180    0.12      10
+
+  Average full width at half maximum (GFWHM) of 8.2047
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:24 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   6.317  2.4    0.09       4
+                 566.88  895.25    0.95   6.260  2.4    0.09      10
+                 621.42 1743.29    0.37   6.283  2.4    0.11       4
+                1288.47  405.10    0.00   6.164  2.3    0.12      10
+
+  Average full width at half maximum (MFWHM) of 6.2415
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:24 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   4.375    0.03     -18
+                 567.45  895.10    0.96   4.460    0.02      -9
+                 622.03 1743.31    0.38   4.430    0.04      -6
+                1289.05  404.72    0.00   4.515    0.03       6
+
+  Average 50% enclosed flux radius of 4.4553
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:25 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   6.268    0.03     -18
+                 567.45  895.10    0.96   6.648    0.02      -9
+                 622.03 1743.31    0.38   6.624    0.04      -6
+                1289.05  404.72    0.00   6.720    0.03       6
+
+  Average full width at half maximum (FWHM) of 6.5924
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:25 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   8.283    0.03     -18
+                 567.45  895.10    0.96   8.465    0.02      -9
+                 622.03 1743.31    0.38   8.432    0.04      -6
+                1289.05  404.72    0.00   8.626    0.03       6
+
+  Average full width at half maximum (GFWHM) of 8.4804
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:25 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   6.384  2.5    0.03     -18
+                 567.45  895.10    0.96   6.695  2.6    0.02      -9
+                 622.03 1743.31    0.38   6.662  2.6    0.04      -6
+                1289.05  404.72    0.00   6.683  2.5    0.03       6
+
+  Average full width at half maximum (MFWHM) of 6.6194
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:26 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   4.525    0.13       0
+                 567.71  895.12    0.95   4.660    0.12       0
+                 622.29 1743.33    0.38   4.605    0.14       0
+                1289.18  405.01    0.00   4.695    0.13       3
+
+  Average 50% enclosed flux radius of 4.6310
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:26 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   6.336    0.13       0
+                 567.71  895.12    0.95   6.860    0.12       0
+                 622.29 1743.33    0.38   6.956    0.14       0
+                1289.18  405.01    0.00   6.924    0.13       3
+
+  Average full width at half maximum (FWHM) of 6.8044
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:26 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   8.590    0.13       0
+                 567.71  895.12    0.95   8.863    0.12       0
+                 622.29 1743.33    0.38   8.820    0.14       0
+                1289.18  405.01    0.00   8.931    0.13       3
+
+  Average full width at half maximum (GFWHM) of 8.8223
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:26 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   6.382  2.3    0.13       0
+                 567.71  895.12    0.95   6.819  2.5    0.12       0
+                 622.29 1743.33    0.38   7.024  2.7    0.14       0
+                1289.18  405.01    0.00   6.952  2.5    0.13       3
+
+  Average full width at half maximum (MFWHM) of 6.8361
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:27 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   4.290    0.16      20
+                 567.79  895.54    0.95   4.390    0.16      24
+                 622.29 1743.85    0.37   4.385    0.18      20
+                1289.33  405.37    0.00   4.400    0.19      22
+
+  Average 50% enclosed flux radius of 4.3719
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:27 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   6.716    0.16      20
+                 567.79  895.54    0.95   7.056    0.16      24
+                 622.29 1743.85    0.37   7.112    0.18      20
+                1289.33  405.37    0.00   6.824    0.19      22
+
+  Average full width at half maximum (FWHM) of 6.9153
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:27 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   8.201    0.16      20
+                 567.79  895.54    0.95   8.426    0.16      24
+                 622.29 1743.85    0.37   8.438    0.18      20
+                1289.33  405.37    0.00   8.407    0.19      22
+
+  Average full width at half maximum (GFWHM) of 8.3770
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:28 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   6.710  3.0    0.16      20
+                 567.79  895.54    0.95   7.230  3.6    0.16      24
+                 622.29 1743.85    0.37   7.258  3.6    0.18      20
+                1289.33  405.37    0.00   6.842  2.9    0.19      22
+
+  Average full width at half maximum (MFWHM) of 6.9870
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:28 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   4.530    0.15       4
+                 567.60  895.39    0.96   4.600    0.14       6
+                 622.16 1743.63    0.38   4.650    0.16       4
+                1289.15  405.24    0.00   4.620    0.16       9
+
+  Average 50% enclosed flux radius of 4.6063
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:29 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   6.304    0.15       4
+                 567.60  895.39    0.96   6.676    0.14       6
+                 622.16 1743.63    0.38   6.444    0.16       4
+                1289.15  405.24    0.00   6.716    0.16       9
+
+  Average full width at half maximum (FWHM) of 6.5546
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:29 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   8.609    0.15       4
+                 567.60  895.39    0.96   8.768    0.14       6
+                 622.16 1743.63    0.38   8.837    0.16       4
+                1289.15  405.24    0.00   8.801    0.16       9
+
+  Average full width at half maximum (GFWHM) of 8.7666
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:13:29 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   6.469  2.3    0.15       4
+                 567.60  895.39    0.96   6.674  2.4    0.14       6
+                 622.16 1743.63    0.38   6.655  2.3    0.16       4
+                1289.15  405.24    0.00   6.769  2.5    0.16       9
+
+  Average full width at half maximum (MFWHM) of 6.6634
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:19:56 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   4.350    0.09       4
+                 566.88  895.25    0.95   4.370    0.09      10
+                 621.42 1743.29    0.37   4.320    0.11       4
+                1288.47  405.10    0.00   4.325    0.12      10
+
+  Average 50% enclosed flux radius of 4.3354
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:19:57 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   6.312    0.09       4
+                 566.88  895.25    0.95   6.168    0.09      10
+                 621.42 1743.29    0.37   6.080    0.11       4
+                1288.47  405.10    0.00   6.000    0.12      10
+
+  Average full width at half maximum (FWHM) of 6.1106
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:19:57 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   8.225    0.09       4
+                 566.88  895.25    0.95   8.270    0.09      10
+                 621.42 1743.29    0.37   8.185    0.11       4
+                1288.47  405.10    0.00   8.180    0.12      10
+
+  Average full width at half maximum (GFWHM) of 8.2047
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:19:57 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   6.317  2.4    0.09       4
+                 566.88  895.25    0.95   6.260  2.4    0.09      10
+                 621.42 1743.29    0.37   6.283  2.4    0.11       4
+                1288.47  405.10    0.00   6.164  2.3    0.12      10
+
+  Average full width at half maximum (MFWHM) of 6.2415
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:19:58 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   4.375    0.03     -18
+                 567.45  895.10    0.96   4.460    0.02      -9
+                 622.03 1743.31    0.38   4.430    0.04      -6
+                1289.05  404.72    0.00   4.515    0.03       6
+
+  Average 50% enclosed flux radius of 4.4553
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:19:58 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   6.268    0.03     -18
+                 567.45  895.10    0.96   6.648    0.02      -9
+                 622.03 1743.31    0.38   6.624    0.04      -6
+                1289.05  404.72    0.00   6.720    0.03       6
+
+  Average full width at half maximum (FWHM) of 6.5924
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:19:58 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   8.283    0.03     -18
+                 567.45  895.10    0.96   8.465    0.02      -9
+                 622.03 1743.31    0.38   8.432    0.04      -6
+                1289.05  404.72    0.00   8.626    0.03       6
+
+  Average full width at half maximum (GFWHM) of 8.4804
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:19:59 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   6.384  2.5    0.03     -18
+                 567.45  895.10    0.96   6.695  2.6    0.02      -9
+                 622.03 1743.31    0.38   6.662  2.6    0.04      -6
+                1289.05  404.72    0.00   6.683  2.5    0.03       6
+
+  Average full width at half maximum (MFWHM) of 6.6194
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:19:59 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   4.525    0.13       0
+                 567.71  895.12    0.95   4.660    0.12       0
+                 622.29 1743.33    0.38   4.605    0.14       0
+                1289.18  405.01    0.00   4.695    0.13       3
+
+  Average 50% enclosed flux radius of 4.6310
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:00 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   6.336    0.13       0
+                 567.71  895.12    0.95   6.860    0.12       0
+                 622.29 1743.33    0.38   6.956    0.14       0
+                1289.18  405.01    0.00   6.924    0.13       3
+
+  Average full width at half maximum (FWHM) of 6.8044
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:00 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   8.590    0.13       0
+                 567.71  895.12    0.95   8.863    0.12       0
+                 622.29 1743.33    0.38   8.820    0.14       0
+                1289.18  405.01    0.00   8.931    0.13       3
+
+  Average full width at half maximum (GFWHM) of 8.8223
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:00 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   6.382  2.3    0.13       0
+                 567.71  895.12    0.95   6.819  2.5    0.12       0
+                 622.29 1743.33    0.38   7.024  2.7    0.14       0
+                1289.18  405.01    0.00   6.952  2.5    0.13       3
+
+  Average full width at half maximum (MFWHM) of 6.8361
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:01 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   4.290    0.16      20
+                 567.79  895.54    0.95   4.390    0.16      24
+                 622.29 1743.85    0.37   4.385    0.18      20
+                1289.33  405.37    0.00   4.400    0.19      22
+
+  Average 50% enclosed flux radius of 4.3719
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:01 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   6.716    0.16      20
+                 567.79  895.54    0.95   7.056    0.16      24
+                 622.29 1743.85    0.37   7.112    0.18      20
+                1289.33  405.37    0.00   6.824    0.19      22
+
+  Average full width at half maximum (FWHM) of 6.9153
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:01 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   8.201    0.16      20
+                 567.79  895.54    0.95   8.426    0.16      24
+                 622.29 1743.85    0.37   8.438    0.18      20
+                1289.33  405.37    0.00   8.407    0.19      22
+
+  Average full width at half maximum (GFWHM) of 8.3770
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:02 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   6.710  3.0    0.16      20
+                 567.79  895.54    0.95   7.230  3.6    0.16      24
+                 622.29 1743.85    0.37   7.258  3.6    0.18      20
+                1289.33  405.37    0.00   6.842  2.9    0.19      22
+
+  Average full width at half maximum (MFWHM) of 6.9870
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:03 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   4.530    0.15       4
+                 567.60  895.39    0.96   4.600    0.14       6
+                 622.16 1743.63    0.38   4.650    0.16       4
+                1289.15  405.24    0.00   4.620    0.16       9
+
+  Average 50% enclosed flux radius of 4.6063
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:03 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   6.304    0.15       4
+                 567.60  895.39    0.96   6.676    0.14       6
+                 622.16 1743.63    0.38   6.444    0.16       4
+                1289.15  405.24    0.00   6.716    0.16       9
+
+  Average full width at half maximum (FWHM) of 6.5546
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:04 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   8.609    0.15       4
+                 567.60  895.39    0.96   8.768    0.14       6
+                 622.16 1743.63    0.38   8.837    0.16       4
+                1289.15  405.24    0.00   8.801    0.16       9
+
+  Average full width at half maximum (GFWHM) of 8.7666
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:04 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   6.469  2.3    0.15       4
+                 567.60  895.39    0.96   6.674  2.4    0.14       6
+                 622.16 1743.63    0.38   6.655  2.3    0.16       4
+                1289.15  405.24    0.00   6.769  2.5    0.16       9
+
+  Average full width at half maximum (MFWHM) of 6.6634
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:43 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   4.350    0.09       4
+                 566.88  895.25    0.95   4.370    0.09      10
+                 621.42 1743.29    0.37   4.320    0.11       4
+                1288.47  405.10    0.00   4.325    0.12      10
+
+  Average 50% enclosed flux radius of 4.3354
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:44 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   6.312    0.09       4
+                 566.88  895.25    0.95   6.168    0.09      10
+                 621.42 1743.29    0.37   6.080    0.11       4
+                1288.47  405.10    0.00   6.000    0.12      10
+
+  Average full width at half maximum (FWHM) of 6.1106
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:44 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   8.225    0.09       4
+                 566.88  895.25    0.95   8.270    0.09      10
+                 621.42 1743.29    0.37   8.185    0.11       4
+                1288.47  405.10    0.00   8.180    0.12      10
+
+  Average full width at half maximum (GFWHM) of 8.2047
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:44 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   6.317  2.4    0.09       4
+                 566.88  895.25    0.95   6.260  2.4    0.09      10
+                 621.42 1743.29    0.37   6.283  2.4    0.11       4
+                1288.47  405.10    0.00   6.164  2.3    0.12      10
+
+  Average full width at half maximum (MFWHM) of 6.2415
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:45 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   4.375    0.03     -18
+                 567.45  895.10    0.96   4.460    0.02      -9
+                 622.03 1743.31    0.38   4.430    0.04      -6
+                1289.05  404.72    0.00   4.515    0.03       6
+
+  Average 50% enclosed flux radius of 4.4553
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:45 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   6.268    0.03     -18
+                 567.45  895.10    0.96   6.648    0.02      -9
+                 622.03 1743.31    0.38   6.624    0.04      -6
+                1289.05  404.72    0.00   6.720    0.03       6
+
+  Average full width at half maximum (FWHM) of 6.5924
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:46 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   8.283    0.03     -18
+                 567.45  895.10    0.96   8.465    0.02      -9
+                 622.03 1743.31    0.38   8.432    0.04      -6
+                1289.05  404.72    0.00   8.626    0.03       6
+
+  Average full width at half maximum (GFWHM) of 8.4804
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:46 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   6.384  2.5    0.03     -18
+                 567.45  895.10    0.96   6.695  2.6    0.02      -9
+                 622.03 1743.31    0.38   6.662  2.6    0.04      -6
+                1289.05  404.72    0.00   6.683  2.5    0.03       6
+
+  Average full width at half maximum (MFWHM) of 6.6194
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:47 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   4.525    0.13       0
+                 567.71  895.12    0.95   4.660    0.12       0
+                 622.29 1743.33    0.38   4.605    0.14       0
+                1289.18  405.01    0.00   4.695    0.13       3
+
+  Average 50% enclosed flux radius of 4.6310
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:47 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   6.336    0.13       0
+                 567.71  895.12    0.95   6.860    0.12       0
+                 622.29 1743.33    0.38   6.956    0.14       0
+                1289.18  405.01    0.00   6.924    0.13       3
+
+  Average full width at half maximum (FWHM) of 6.8044
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:47 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   8.590    0.13       0
+                 567.71  895.12    0.95   8.863    0.12       0
+                 622.29 1743.33    0.38   8.820    0.14       0
+                1289.18  405.01    0.00   8.931    0.13       3
+
+  Average full width at half maximum (GFWHM) of 8.8223
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:48 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   6.382  2.3    0.13       0
+                 567.71  895.12    0.95   6.819  2.5    0.12       0
+                 622.29 1743.33    0.38   7.024  2.7    0.14       0
+                1289.18  405.01    0.00   6.952  2.5    0.13       3
+
+  Average full width at half maximum (MFWHM) of 6.8361
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:48 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   4.290    0.16      20
+                 567.79  895.54    0.95   4.390    0.16      24
+                 622.29 1743.85    0.37   4.385    0.18      20
+                1289.33  405.37    0.00   4.400    0.19      22
+
+  Average 50% enclosed flux radius of 4.3719
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:49 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   6.716    0.16      20
+                 567.79  895.54    0.95   7.056    0.16      24
+                 622.29 1743.85    0.37   7.112    0.18      20
+                1289.33  405.37    0.00   6.824    0.19      22
+
+  Average full width at half maximum (FWHM) of 6.9153
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:49 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   8.201    0.16      20
+                 567.79  895.54    0.95   8.426    0.16      24
+                 622.29 1743.85    0.37   8.438    0.18      20
+                1289.33  405.37    0.00   8.407    0.19      22
+
+  Average full width at half maximum (GFWHM) of 8.3770
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:49 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   6.710  3.0    0.16      20
+                 567.79  895.54    0.95   7.230  3.6    0.16      24
+                 622.29 1743.85    0.37   7.258  3.6    0.18      20
+                1289.33  405.37    0.00   6.842  2.9    0.19      22
+
+  Average full width at half maximum (MFWHM) of 6.9870
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:50 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   4.530    0.15       4
+                 567.60  895.39    0.96   4.600    0.14       6
+                 622.16 1743.63    0.38   4.650    0.16       4
+                1289.15  405.24    0.00   4.620    0.16       9
+
+  Average 50% enclosed flux radius of 4.6063
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:50 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   6.304    0.15       4
+                 567.60  895.39    0.96   6.676    0.14       6
+                 622.16 1743.63    0.38   6.444    0.16       4
+                1289.15  405.24    0.00   6.716    0.16       9
+
+  Average full width at half maximum (FWHM) of 6.5546
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:51 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   8.609    0.15       4
+                 567.60  895.39    0.96   8.768    0.14       6
+                 622.16 1743.63    0.38   8.837    0.16       4
+                1289.15  405.24    0.00   8.801    0.16       9
+
+  Average full width at half maximum (GFWHM) of 8.7666
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:20:51 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   6.469  2.3    0.15       4
+                 567.60  895.39    0.96   6.674  2.4    0.14       6
+                 622.16 1743.63    0.38   6.655  2.3    0.16       4
+                1289.15  405.24    0.00   6.769  2.5    0.16       9
+
+  Average full width at half maximum (MFWHM) of 6.6634
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:18 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   4.350    0.09       4
+                 566.88  895.25    0.95   4.370    0.09      10
+                 621.42 1743.29    0.37   4.320    0.11       4
+                1288.47  405.10    0.00   4.325    0.12      10
+
+  Average 50% enclosed flux radius of 4.3354
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:18 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   6.312    0.09       4
+                 566.88  895.25    0.95   6.168    0.09      10
+                 621.42 1743.29    0.37   6.080    0.11       4
+                1288.47  405.10    0.00   6.000    0.12      10
+
+  Average full width at half maximum (FWHM) of 6.1106
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:18 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   8.225    0.09       4
+                 566.88  895.25    0.95   8.270    0.09      10
+                 621.42 1743.29    0.37   8.185    0.11       4
+                1288.47  405.10    0.00   8.180    0.12      10
+
+  Average full width at half maximum (GFWHM) of 8.2047
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:18 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   6.317  2.4    0.09       4
+                 566.88  895.25    0.95   6.260  2.4    0.09      10
+                 621.42 1743.29    0.37   6.283  2.4    0.11       4
+                1288.47  405.10    0.00   6.164  2.3    0.12      10
+
+  Average full width at half maximum (MFWHM) of 6.2415
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:19 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   4.375    0.03     -18
+                 567.45  895.10    0.96   4.460    0.02      -9
+                 622.03 1743.31    0.38   4.430    0.04      -6
+                1289.05  404.72    0.00   4.515    0.03       6
+
+  Average 50% enclosed flux radius of 4.4553
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:19 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   6.268    0.03     -18
+                 567.45  895.10    0.96   6.648    0.02      -9
+                 622.03 1743.31    0.38   6.624    0.04      -6
+                1289.05  404.72    0.00   6.720    0.03       6
+
+  Average full width at half maximum (FWHM) of 6.5924
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:20 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   8.283    0.03     -18
+                 567.45  895.10    0.96   8.465    0.02      -9
+                 622.03 1743.31    0.38   8.432    0.04      -6
+                1289.05  404.72    0.00   8.626    0.03       6
+
+  Average full width at half maximum (GFWHM) of 8.4804
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:20 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   6.384  2.5    0.03     -18
+                 567.45  895.10    0.96   6.695  2.6    0.02      -9
+                 622.03 1743.31    0.38   6.662  2.6    0.04      -6
+                1289.05  404.72    0.00   6.683  2.5    0.03       6
+
+  Average full width at half maximum (MFWHM) of 6.6194
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:20 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   4.525    0.13       0
+                 567.71  895.12    0.95   4.660    0.12       0
+                 622.29 1743.33    0.38   4.605    0.14       0
+                1289.18  405.01    0.00   4.695    0.13       3
+
+  Average 50% enclosed flux radius of 4.6310
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:21 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   6.336    0.13       0
+                 567.71  895.12    0.95   6.860    0.12       0
+                 622.29 1743.33    0.38   6.956    0.14       0
+                1289.18  405.01    0.00   6.924    0.13       3
+
+  Average full width at half maximum (FWHM) of 6.8044
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:21 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   8.590    0.13       0
+                 567.71  895.12    0.95   8.863    0.12       0
+                 622.29 1743.33    0.38   8.820    0.14       0
+                1289.18  405.01    0.00   8.931    0.13       3
+
+  Average full width at half maximum (GFWHM) of 8.8223
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:21 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   6.382  2.3    0.13       0
+                 567.71  895.12    0.95   6.819  2.5    0.12       0
+                 622.29 1743.33    0.38   7.024  2.7    0.14       0
+                1289.18  405.01    0.00   6.952  2.5    0.13       3
+
+  Average full width at half maximum (MFWHM) of 6.8361
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:22 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   4.290    0.16      20
+                 567.79  895.54    0.95   4.390    0.16      24
+                 622.29 1743.85    0.37   4.385    0.18      20
+                1289.33  405.37    0.00   4.400    0.19      22
+
+  Average 50% enclosed flux radius of 4.3719
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:22 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   6.716    0.16      20
+                 567.79  895.54    0.95   7.056    0.16      24
+                 622.29 1743.85    0.37   7.112    0.18      20
+                1289.33  405.37    0.00   6.824    0.19      22
+
+  Average full width at half maximum (FWHM) of 6.9153
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:22 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   8.201    0.16      20
+                 567.79  895.54    0.95   8.426    0.16      24
+                 622.29 1743.85    0.37   8.438    0.18      20
+                1289.33  405.37    0.00   8.407    0.19      22
+
+  Average full width at half maximum (GFWHM) of 8.3770
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:23 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   6.710  3.0    0.16      20
+                 567.79  895.54    0.95   7.230  3.6    0.16      24
+                 622.29 1743.85    0.37   7.258  3.6    0.18      20
+                1289.33  405.37    0.00   6.842  2.9    0.19      22
+
+  Average full width at half maximum (MFWHM) of 6.9870
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:23 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   4.530    0.15       4
+                 567.60  895.39    0.96   4.600    0.14       6
+                 622.16 1743.63    0.38   4.650    0.16       4
+                1289.15  405.24    0.00   4.620    0.16       9
+
+  Average 50% enclosed flux radius of 4.6063
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:24 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   6.304    0.15       4
+                 567.60  895.39    0.96   6.676    0.14       6
+                 622.16 1743.63    0.38   6.444    0.16       4
+                1289.15  405.24    0.00   6.716    0.16       9
+
+  Average full width at half maximum (FWHM) of 6.5546
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:24 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   8.609    0.15       4
+                 567.60  895.39    0.96   8.768    0.14       6
+                 622.16 1743.63    0.38   8.837    0.16       4
+                1289.15  405.24    0.00   8.801    0.16       9
+
+  Average full width at half maximum (GFWHM) of 8.7666
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 19:37:24 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   6.469  2.3    0.15       4
+                 567.60  895.39    0.96   6.674  2.4    0.14       6
+                 622.16 1743.63    0.38   6.655  2.3    0.16       4
+                1289.15  405.24    0.00   6.769  2.5    0.16       9
+
+  Average full width at half maximum (MFWHM) of 6.6634
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:22 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   4.350    0.09       4
+                 566.88  895.25    0.95   4.370    0.09      10
+                 621.42 1743.29    0.37   4.320    0.11       4
+                1288.47  405.10    0.00   4.325    0.12      10
+
+  Average 50% enclosed flux radius of 4.3354
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:23 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   6.312    0.09       4
+                 566.88  895.25    0.95   6.168    0.09      10
+                 621.42 1743.29    0.37   6.080    0.11       4
+                1288.47  405.10    0.00   6.000    0.12      10
+
+  Average full width at half maximum (FWHM) of 6.1106
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:23 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   8.225    0.09       4
+                 566.88  895.25    0.95   8.270    0.09      10
+                 621.42 1743.29    0.37   8.185    0.11       4
+                1288.47  405.10    0.00   8.180    0.12      10
+
+  Average full width at half maximum (GFWHM) of 8.2047
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:23 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310100.f  264.74 1146.94    0.67   6.317  2.4    0.09       4
+                 566.88  895.25    0.95   6.260  2.4    0.09      10
+                 621.42 1743.29    0.37   6.283  2.4    0.11       4
+                1288.47  405.10    0.00   6.164  2.3    0.12      10
+
+  Average full width at half maximum (MFWHM) of 6.2415
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:24 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   4.375    0.03     -18
+                 567.45  895.10    0.96   4.460    0.02      -9
+                 622.03 1743.31    0.38   4.430    0.04      -6
+                1289.05  404.72    0.00   4.515    0.03       6
+
+  Average 50% enclosed flux radius of 4.4553
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:24 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   6.268    0.03     -18
+                 567.45  895.10    0.96   6.648    0.02      -9
+                 622.03 1743.31    0.38   6.624    0.04      -6
+                1289.05  404.72    0.00   6.720    0.03       6
+
+  Average full width at half maximum (FWHM) of 6.5924
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:24 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   8.283    0.03     -18
+                 567.45  895.10    0.96   8.465    0.02      -9
+                 622.03 1743.31    0.38   8.432    0.04      -6
+                1289.05  404.72    0.00   8.626    0.03       6
+
+  Average full width at half maximum (GFWHM) of 8.4804
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:24 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310101.f  265.32 1146.98    0.69   6.384  2.5    0.03     -18
+                 567.45  895.10    0.96   6.695  2.6    0.02      -9
+                 622.03 1743.31    0.38   6.662  2.6    0.04      -6
+                1289.05  404.72    0.00   6.683  2.5    0.03       6
+
+  Average full width at half maximum (MFWHM) of 6.6194
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:25 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   4.525    0.13       0
+                 567.71  895.12    0.95   4.660    0.12       0
+                 622.29 1743.33    0.38   4.605    0.14       0
+                1289.18  405.01    0.00   4.695    0.13       3
+
+  Average 50% enclosed flux radius of 4.6310
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:25 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   6.336    0.13       0
+                 567.71  895.12    0.95   6.860    0.12       0
+                 622.29 1743.33    0.38   6.956    0.14       0
+                1289.18  405.01    0.00   6.924    0.13       3
+
+  Average full width at half maximum (FWHM) of 6.8044
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:26 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   8.590    0.13       0
+                 567.71  895.12    0.95   8.863    0.12       0
+                 622.29 1743.33    0.38   8.820    0.14       0
+                1289.18  405.01    0.00   8.931    0.13       3
+
+  Average full width at half maximum (GFWHM) of 8.8223
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:26 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310102.f  265.52 1146.93    0.68   6.382  2.3    0.13       0
+                 567.71  895.12    0.95   6.819  2.5    0.12       0
+                 622.29 1743.33    0.38   7.024  2.7    0.14       0
+                1289.18  405.01    0.00   6.952  2.5    0.13       3
+
+  Average full width at half maximum (MFWHM) of 6.8361
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:27 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   4.290    0.16      20
+                 567.79  895.54    0.95   4.390    0.16      24
+                 622.29 1743.85    0.37   4.385    0.18      20
+                1289.33  405.37    0.00   4.400    0.19      22
+
+  Average 50% enclosed flux radius of 4.3719
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:27 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   6.716    0.16      20
+                 567.79  895.54    0.95   7.056    0.16      24
+                 622.29 1743.85    0.37   7.112    0.18      20
+                1289.33  405.37    0.00   6.824    0.19      22
+
+  Average full width at half maximum (FWHM) of 6.9153
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:27 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   8.201    0.16      20
+                 567.79  895.54    0.95   8.426    0.16      24
+                 622.29 1743.85    0.37   8.438    0.18      20
+                1289.33  405.37    0.00   8.407    0.19      22
+
+  Average full width at half maximum (GFWHM) of 8.3770
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:27 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310103.f  265.61 1147.41    0.68   6.710  3.0    0.16      20
+                 567.79  895.54    0.95   7.230  3.6    0.16      24
+                 622.29 1743.85    0.37   7.258  3.6    0.18      20
+                1289.33  405.37    0.00   6.842  2.9    0.19      22
+
+  Average full width at half maximum (MFWHM) of 6.9870
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:28 15-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   4.530    0.15       4
+                 567.60  895.39    0.96   4.600    0.14       6
+                 622.16 1743.63    0.38   4.650    0.16       4
+                1289.15  405.24    0.00   4.620    0.16       9
+
+  Average 50% enclosed flux radius of 4.6063
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:28 15-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   6.304    0.15       4
+                 567.60  895.39    0.96   6.676    0.14       6
+                 622.16 1743.63    0.38   6.444    0.16       4
+                1289.15  405.24    0.00   6.716    0.16       9
+
+  Average full width at half maximum (FWHM) of 6.5546
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:28 15-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   8.609    0.15       4
+                 567.60  895.39    0.96   8.768    0.14       6
+                 622.16 1743.63    0.38   8.837    0.16       4
+                1289.15  405.24    0.00   8.801    0.16       9
+
+  Average full width at half maximum (GFWHM) of 8.7666
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Wed 20:44:29 15-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+alh2acl310104.f  265.37 1147.20    0.68   6.469  2.3    0.15       4
+                 567.60  895.39    0.96   6.674  2.4    0.14       6
+                 622.16 1743.63    0.38   6.655  2.3    0.16       4
+                1289.15  405.24    0.00   6.769  2.5    0.16       9
+
+  Average full width at half maximum (MFWHM) of 6.6634

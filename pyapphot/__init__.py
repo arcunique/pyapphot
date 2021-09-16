@@ -6,4 +6,4 @@ def joinpath2root(*args):
     if len(args)==1 and os.path.exists(args[0]): return args[0]
     return os.path.join(rootdir,*args)
 
-configpath = joinpath2root('config')
+_configpath = joinpath2root('config')

@@ -6,7 +6,7 @@ airmass = INDEF
 [header_keys]
 ut = UT
 exposure = EXPTIME
-obstime = UT
+obstime = DATE
 filter = FILTER
 ra = RA
 dec = DEC

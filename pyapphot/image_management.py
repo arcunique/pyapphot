@@ -6,7 +6,9 @@ from . import imexam_mod as imexam
 import matplotlib
 from .utils import *
 from .imred_tools import *
+from . import _configpath
 from astropy.io import fits
+from configparser import ConfigParser
 # matplotlib.use('Qt5Agg')
 imexam.set_logging(logging.CRITICAL)
 __all__ = ['get_psfcentroid','imexamine','imcorrection','alignimages','save_matched_coords']
@@ -113,11 +115,13 @@ class imexamine(object):
         self._localxpa = False
         if set_xpa_method_local:
             self._org_xpa_method = os.getenv('XPA_METHOD')
-            if self._org_xpa_method!='local': os.environ['XPA_METHOD'] = 'local'
+            if self._org_xpa_method!='local':
+                os.environ['XPA_METHOD'] = 'local'
             self._localxpa = True
         else:
             self._org_xpa_method = os.getenv('XPA_METHOD')
-            if self._org_xpa_method != 'inet': os.environ['XPA_METHOD'] = 'inet'
+            if self._org_xpa_method != 'inet':
+                os.environ['XPA_METHOD'] = 'inet'
 
     def openviewer(self,ds9_target=None,wait_time=10):
         '''
@@ -200,6 +204,7 @@ class imexamine(object):
 
     def get_psfcenter(self,x,y,delta=50,amp2bg_cutoff=0.5,full_output=False):
         imdata = self.viewer.window.get_data().astype(float)
+        # print(imdata)
         amp, x, y, xsig, ysig = self.viewer.exam.gauss_center(x, y, data=imdata, delta=delta)
         delta = int(delta)
         xx = int(x)
@@ -210,7 +215,7 @@ class imexamine(object):
             if not full_output: return x, y
             return amp, x, y, xsig, ysig
 
-    def examine_frames(self, image=None, coordfile='', markcoords=True, verbose=False, clear_prev_coords=False,**kwargs):
+    def examine_frames(self, image=None, coordfile='', markcoords=True, verbose=False, clear_prev_coords=False, **kwargs):
         '''
         Examines the frames depending on keys inserted.
         :param image: image name(s): str, str with '*' or '@', list, tuple
@@ -339,9 +344,10 @@ class imexamine(object):
                 if markcoords and cooass: self.mark_coords(coofile=cooass)
                 # self.__shiftmode = False
 
-            elif key == 'q': break
+            elif key == 'q':
+                break
 
-def imcorrection(image, par, bias='@biaslist', biaswin='full', biasbin=None, dark='@darklist', darkwin='full', darkbin=None, flat='@flatlist', flatwin='full', flatbin=None, illum='', fringe='',  output='__Auto__', flatnorm=True):
+def imcorrection(image, instrument, bias='@biaslist', biaswin='full', biasbin=None, dark='@darklist', darkwin='full', darkbin=None, flat='@flatlist', flatwin='full', flatbin=None, illum='', fringe='',  output='__Auto__', flatnorm=True, configpath=None):
     '''
     perfomrs reduction: bias correction, flat fielding etc. For details go through the IRAF ccdproc document.
     :param image: image name(s): str, str with '*' or '@', list, tuple
@@ -359,6 +365,21 @@ def imcorrection(image, par, bias='@biaslist', biaswin='full', biasbin=None, dar
     :param flatnorm: if set flat is normalized: bool
     :return: returns the output name(s), masterbias name, master dark name, master flat name, illum file name, fring file name
     '''
+    parser = ConfigParser()
+    if not configpath:
+        configpath = os.path.join(_configpath, instrument)
+    else:
+        configpath = os.path.join(configpath, instrument)
+    parser.read(configpath)
+    try:
+        gain = parser.get('values', 'gain')
+    except:
+        gain = parser.get('header_keys', 'gain')
+    try:
+        readnoise = parser.get('values', 'readnoise')
+    except:
+        readnoise = parser.get('header_keys', 'readnoise')
+    par = [gain, readnoise]
     if output == '__Auto__':
         pref = ''
         if bias != '' and bias is not None:  pref += 'b'
@@ -370,7 +391,7 @@ def imcorrection(image, par, bias='@biaslist', biaswin='full', biasbin=None, dar
         if type(image)==str and image[0]=='@': output = addpresuff2filename(image,pref)
         else: output = addpresuff2filename(filenames2list(image),pref)
         if len(filenames2list(bias, forcelist=True)) > 1: bias = master_bias_gen(par, bias)
-        if len(filenames2list(bias, forcelist=True)): dark = master_dark_gen(par, dark)
+        if len(filenames2list(bias, forcelist=True)) >1: dark = master_dark_gen(par, dark)
         if len(filenames2list(flat)) > 1: flat = master_flat_gen(par, flat, normalize=flatnorm)
         if biasbin is not None: winbin_fits(bias, win=biaswin, bin=biasbin, bintype=np.mean)
         if darkbin is not None: winbin_fits(dark, win=darkwin, bin=darkbin, bintype=np.mean)
@@ -421,27 +442,31 @@ def alignimages(image, refimage=0, refcoord=0, coordfile='', coordsprefix='', ib
     task(input=image, reference=refimage, coords=coordfile, output=output, Stdout=os.devnull)
     coo = get_psfcentroid(output, xref, yref, fbox)
     maxshift = np.max(np.abs(coo-coo[irefimage]))
-    return oplist, coordfile, maxshift
+    return {'outputs': oplist, 'reference_coordinates_file': coordfile, 'maximum_misalignment': maxshift}
 
-def save_matched_coords(image,coordfile='',output='',box=50,**kwargs):
+def save_matched_coords(image, coordfile='',output='',box=50,**kwargs):
     '''
     Finds and stores co-ordinates of the objects on all the frames based on the reference co-ordinates
     '''
     im = filenames2list(image)
     imlist = [im] if type(im)==str else im
-    if output!='': output = filenames2list(output)
+    if output!='':
+        output = filenames2list(output)
     urefcoo = True
-    coordsprefix = ''
+    coordsprefix = kwargs.get('coordsprefix','')
     if coordfile=='':
-        refim = kwargs.get('refimage',0)
-        if type(refim) == int: refim, irefim = imlist[refim], refim
-        else: refim, irefim = refim, imlist.index(refim)
-        coordsprefix = kwargs.get('coordsprefix','')
+        refim = kwargs.get('refimage', 0)
+        if type(refim) == int:
+            refim, irefim = imlist[refim], refim
+        else:
+            refim, irefim = refim, imlist.index(refim)
         coordfile = get_coords_filename_from_prefix(image=refim, prefix=coordsprefix)
         urefcoo = kwargs.get('update_refim_coords',True)
     if type(im)==str:
-        if output=='': output = get_coords_filename_from_prefix(image=im,prefix=coordsprefix)
-        if coordfile!=output and not urefcoo:  os.system(f'cp {coordfile} {output}')
+        if output=='':
+            output = get_coords_filename_from_prefix(image=im,prefix=coordsprefix)
+        if coordfile!=output and not urefcoo:
+            os.system(f'cp {coordfile} {output}')
         if urefcoo:
             task = ir.center
             task.centerpars.calgorithm = 'centroid'
@@ -454,7 +479,8 @@ def save_matched_coords(image,coordfile='',output='',box=50,**kwargs):
             task.verify = 'no'
             task.update = 'no'
             task.verbose = 'no'
-            if os.path.exists(j2s('__coo__')): os.remove(j2s('__coo__'))
+            if os.path.exists(j2s('__coo__')):
+                os.remove(j2s('__coo__'))
             task(image=im, coords=coordfile, output=j2s('__coo__'))
             ir.txdump(textfiles=j2s('__coo__'), fields='xcenter,ycenter', expr='yes', headers='no', parameters='no', Stdout=output)
         return output
@@ -468,7 +494,8 @@ def save_matched_coords(image,coordfile='',output='',box=50,**kwargs):
         if output!='':
             j = list(range(len(imlist))).remove(irefim)[i]
             op = output[j]
-        else: op = ''
+        else:
+            op = ''
         oplist.append(save_matched_coords(im,coordfile,op,box,**kwargs))
     return oplist
 

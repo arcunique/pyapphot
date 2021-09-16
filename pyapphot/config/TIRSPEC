@@ -1,0 +1,14 @@
+[values]
+gain = 6
+readnoise = 25
+airmass = INDEF
+
+[header_keys]
+ut = TIME
+exposure = ITIME
+otime = OBSTIME
+date = OBSDATE
+filter = UPPER
+ra = TCSRA
+dec = TCSDEC
+object = object

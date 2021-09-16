@@ -1,0 +1,815 @@
+
+Sep 16  7:35: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:38: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:41: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = Zero, ncombine = 2
+
+Sep 16  7:43: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterb, ncombine = 2
+
+Sep 16  7:43: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:45: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:45: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:49: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Exp    Mode  Scale
+  06jan2019_sflat_R_001.fits    8.0  14521.  1.059
+  06jan2019_sflat_R_002.fits   10.0  16585.  0.927
+  06jan2019_sflat_R_003.fits   12.0  15025.  1.023
+
+  Output image = Flat, ncombine = 3
+
+Sep 16  7:49: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:49: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:50: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:51: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:52: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:52: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:52: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:52: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:53: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:56: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:57: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  7:58: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+06jan2019_sflat_R_001.fits: Sep 16  7:58 Trim data section is [1:2148,1:4102]
+
+Sep 16  7:58: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Exp    Mode  Scale
+  06jan2019_sflat_R_001.fits    8.0  14521.  1.059
+  06jan2019_sflat_R_002.fits   10.0  16585.  0.927
+  06jan2019_sflat_R_003.fits   12.0  15025.  1.023
+
+  Output image = Flat, ncombine = 3
+
+Sep 16  8:00: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  8:02: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+06jan2019_sflat_R_001.fits: Sep 16  8:02 Trim data section is [1:2148,1:4102]
+
+Sep 16  8:03: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+06jan2019_sflat_R_001.fits: Sep 16  8:03 Trim data section is [1:2148,1:4102]
+
+Sep 16  8:04: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+06jan2019_sflat_R_001.fits: Sep 16  8:04 Trim data section is [1:2148,1:4102]
+
+Sep 16  8:05: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+06jan2019_sflat_R_001.fits: Sep 16  8:05 Trim data section is [1:2148,1:4102]
+
+Sep 16  8:06: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+06jan2019_sflat_R_001.fits: Sep 16  8:06 Trim data section is [1:2148,1:4102]
+
+Sep 16  8:06: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+06jan2019_sflat_R_001.fits: Sep 16  8:06 Trim data section is [1:2148,1:4102]
+
+Sep 16  8:07: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+06jan2019_sflat_R_001.fits: Sep 16  8:07 Trim data section is [1:2148,1:4102]
+
+Sep 16  8:08: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+06jan2019_sflat_R_001.fits: Sep 16  8:08 Trim data section is [1:2148,1:4102]
+06jan2019_sflat_R_001.fits: Sep 16  8:08 Trim data section is [1:2148,1:4102]
+
+Sep 16  8:08: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Exp    Mode  Scale
+  06jan2019_sflat_R_001.fits    8.0  14521.  1.059
+  06jan2019_sflat_R_002.fits   10.0  16585.  0.927
+  06jan2019_sflat_R_003.fits   12.0  15025.  1.023
+
+  Output image = Flat, ncombine = 3
+
+Sep 16  8:09: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+06jan2019_sflat_R_001.fits: Sep 16  8:09 Trim data section is [1:2148,1:4102]
+
+Sep 16  8:09: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+06jan2019_sflat_R_001.fits: Sep 16  8:09 Trim data section is [1:2148,1:4102]
+
+Sep 16  8:09: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  07jan2019_bias_001.fits
+  07jan2019_bias_002.fits
+
+  Output image = masterbias.fits, ncombine = 2
+
+Sep 16  8:09: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Exp    Mode  Scale
+  06jan2019_sflat_R_001.fits    8.0  14521.  1.059
+  06jan2019_sflat_R_002.fits   10.0  16585.  0.927
+  06jan2019_sflat_R_003.fits   12.0  15025.  1.023
+
+  Output image = masterflat.fits, ncombine = 3
+07jan2019_wasp50_R_030.fits: Sep 16  8:09 Zero level correction image is masterbias.fits
+masterflat.fits: Sep 16  8:09 Zero level correction image is masterbias.fits
+07jan2019_wasp50_R_030.fits: Sep 16  8:09 Flat field image is masterflat.fits with scale=11951.18
+07jan2019_wasp50_R_031.fits: Sep 16  8:09 Zero level correction image is masterbias.fits
+07jan2019_wasp50_R_031.fits: Sep 16  8:09 Flat field image is masterflat.fits with scale=11951.19
+07jan2019_wasp50_R_032.fits: Sep 16  8:09 Zero level correction image is masterbias.fits
+07jan2019_wasp50_R_032.fits: Sep 16  8:09 Flat field image is masterflat.fits with scale=11951.19
+07jan2019_wasp50_R_033.fits: Sep 16  8:09 Zero level correction image is masterbias.fits
+07jan2019_wasp50_R_033.fits: Sep 16  8:09 Flat field image is masterflat.fits with scale=11951.19
+07jan2019_wasp50_R_034.fits: Sep 16  8:09 Zero level correction image is masterbias.fits
+07jan2019_wasp50_R_034.fits: Sep 16  8:09 Flat field image is masterflat.fits with scale=11951.19
+07jan2019_wasp50_R_035.fits: Sep 16  8:09 Zero level correction image is masterbias.fits
+07jan2019_wasp50_R_035.fits: Sep 16  8:09 Flat field image is masterflat.fits with scale=11951.19
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:19 16-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.72    1.53   3.664    0.02     -37
+                1090.98  689.05    1.97   3.616    0.04     -35
+                 847.47  205.74    0.70   3.712    0.02      12
+                1096.57 2273.30    0.00   3.596    0.02     -30
+
+  Average 50% enclosed flux radius of 3.6378
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:19 16-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.72    1.53   6.436    0.02     -37
+                1090.98  689.05    1.97   6.224    0.04     -35
+                 847.47  205.74    0.70   6.264    0.02      12
+                1096.57 2273.30    0.00   6.164    0.02     -30
+
+  Average full width at half maximum (FWHM) of 6.2306
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:19 16-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.72    1.53   7.199    0.02     -37
+                1090.98  689.05    1.97   7.102    0.04     -35
+                 847.47  205.74    0.70   7.246    0.02      12
+                1096.57 2273.30    0.00   7.019    0.02     -30
+
+  Average full width at half maximum (GFWHM) of 7.1107
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:19 16-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.72    1.53   6.437  4.7    0.02     -37
+                1090.98  689.05    1.97   6.313  4.5    0.04     -35
+                 847.47  205.74    0.70   6.307  3.9    0.02      12
+                1096.57 2273.30    0.00   6.193  4.2    0.02     -30
+
+  Average full width at half maximum (MFWHM) of 6.2647
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:20 16-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+albf07jan2019_w  949.64 2933.70    1.53   3.464    0.02     -32
+                1090.85  689.24    1.95   3.462    0.02     -78
+                 847.38  205.90    0.71   3.480    0.01      74
+                1096.56 2273.18    0.00   3.414    0.01     -30
+
+  Average 50% enclosed flux radius of 3.4422
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:20 16-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+albf07jan2019_w  949.64 2933.70    1.53   5.960    0.02     -32
+                1090.85  689.24    1.95   5.988    0.02     -78
+                 847.38  205.90    0.71   5.968    0.01      74
+                1096.56 2273.18    0.00   5.780    0.01     -30
+
+  Average full width at half maximum (FWHM) of 5.8714
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:20 16-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+albf07jan2019_w  949.64 2933.70    1.53   6.773    0.02     -32
+                1090.85  689.24    1.95   6.776    0.02     -78
+                 847.38  205.90    0.71   6.804    0.01      74
+                1096.56 2273.18    0.00   6.672    0.01     -30
+
+  Average full width at half maximum (GFWHM) of 6.7293
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:21 16-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+albf07jan2019_w  949.64 2933.70    1.53   5.969  4.2    0.02     -32
+                1090.85  689.24    1.95   6.023  4.5    0.02     -78
+                 847.38  205.90    0.71   5.995  4.2    0.01      74
+                1096.56 2273.18    0.00   5.835  4.1    0.01     -30
+
+  Average full width at half maximum (MFWHM) of 5.9111
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:21 16-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.55    1.52   3.950    0.04     -53
+                1090.96  689.06    1.93   3.988    0.01     -80
+                 847.43  205.81    0.70   3.968    0.00     -23
+                1096.56 2273.10    0.00   3.920    0.01     -43
+
+  Average 50% enclosed flux radius of 3.9426
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:22 16-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.55    1.52   6.800    0.04     -53
+                1090.96  689.06    1.93   6.660    0.01     -80
+                 847.43  205.81    0.70   6.816    0.00     -23
+                1096.56 2273.10    0.00   6.672    0.01     -43
+
+  Average full width at half maximum (FWHM) of 6.7261
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:22 16-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.55    1.52   7.680    0.04     -53
+                1090.96  689.06    1.93   7.744    0.01     -80
+                 847.43  205.81    0.70   7.731    0.00     -23
+                1096.56 2273.10    0.00   7.615    0.01     -43
+
+  Average full width at half maximum (GFWHM) of 7.6657
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:22 16-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.55    1.52   6.820  4.5    0.04     -53
+                1090.96  689.06    1.93   6.731  3.9    0.01     -80
+                 847.43  205.81    0.70   6.839  4.3    0.00     -23
+                1096.56 2273.10    0.00   6.689  4.2    0.01     -43
+
+  Average full width at half maximum (MFWHM) of 6.7501
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:22 16-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+albf07jan2019_w  949.77 2933.48    1.51   4.570    0.08     -55
+                1090.98  689.25    1.97   4.375    0.03     -55
+                 847.42  205.94    0.71   4.430    0.04     -42
+                1096.62 2273.08    0.00   4.500    0.05     -49
+
+  Average 50% enclosed flux radius of 4.4792
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:23 16-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+albf07jan2019_w  949.77 2933.48    1.51   7.636    0.08     -55
+                1090.98  689.25    1.97   7.272    0.03     -55
+                 847.42  205.94    0.71   7.196    0.04     -42
+                1096.62 2273.08    0.00   7.392    0.05     -49
+
+  Average full width at half maximum (FWHM) of 7.3602
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:23 16-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+albf07jan2019_w  949.77 2933.48    1.51   8.918    0.08     -55
+                1090.98  689.25    1.97   8.503    0.03     -55
+                 847.42  205.94    0.71   8.584    0.04     -42
+                1096.62 2273.08    0.00   8.724    0.05     -49
+
+  Average full width at half maximum (GFWHM) of 8.6926
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:23 16-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+albf07jan2019_w  949.77 2933.48    1.51   7.830  4.1    0.08     -55
+                1090.98  689.25    1.97   7.559  4.4    0.03     -55
+                 847.42  205.94    0.71   7.443  3.7    0.04     -42
+                1096.62 2273.08    0.00   7.611  3.9    0.05     -49
+
+  Average full width at half maximum (MFWHM) of 7.5895
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:24 16-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.57    1.55   4.460    0.05     -46
+                1090.98  689.18    1.96   4.480    0.04     -46
+                 847.50  205.94    0.71   4.485    0.03     -45
+                1096.64 2273.18    0.00   4.440    0.04     -44
+
+  Average 50% enclosed flux radius of 4.4576
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:24 16-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.57    1.55   7.544    0.05     -46
+                1090.98  689.18    1.96   7.420    0.04     -46
+                 847.50  205.94    0.71   7.372    0.03     -45
+                1096.64 2273.18    0.00   7.236    0.04     -44
+
+  Average full width at half maximum (FWHM) of 7.3267
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:24 16-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.57    1.55   8.707    0.05     -46
+                1090.98  689.18    1.96   8.722    0.04     -46
+                 847.50  205.94    0.71   8.687    0.03     -45
+                1096.64 2273.18    0.00   8.597    0.04     -44
+
+  Average full width at half maximum (GFWHM) of 8.6457
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:24 16-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.57    1.55   7.532  3.7    0.05     -46
+                1090.98  689.18    1.96   7.671  4.1    0.04     -46
+                 847.50  205.94    0.71   7.557  3.8    0.03     -45
+                1096.64 2273.18    0.00   7.468  3.8    0.04     -44
+
+  Average full width at half maximum (MFWHM) of 7.5175
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:25 16-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.53    1.50   5.034    0.04     -81
+                1090.97  688.91    1.96   4.840    0.02      86
+                 847.38  205.57    0.70   4.889    0.05      82
+                1096.63 2272.91    0.00   4.810    0.05      85
+
+  Average 50% enclosed flux radius of 4.8627
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:25 16-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.53    1.50   9.139    0.04     -81
+                1090.97  688.91    1.96   7.796    0.02      86
+                 847.38  205.57    0.70   7.884    0.05      82
+                1096.63 2272.91    0.00   7.744    0.05      85
+
+  Average full width at half maximum (FWHM) of 7.9663
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:25 16-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.53    1.50   9.819    0.04     -81
+                1090.97  688.91    1.96   9.399    0.02      86
+                 847.38  205.57    0.70   9.508    0.05      82
+                1096.63 2272.91    0.00   9.346    0.05      85
+
+  Average full width at half maximum (GFWHM) of 9.4551
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:21:26 16-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.53    1.50   8.680  4.3    0.04     -81
+                1090.97  688.91    1.96   8.236  3.9    0.02      86
+                 847.38  205.57    0.70   8.319  3.9    0.05      82
+                1096.63 2272.91    0.00   8.089  3.7    0.05      85
+
+  Average full width at half maximum (MFWHM) of 8.2402
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:13 16-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.72    1.53   3.664    0.02     -37
+                1090.98  689.05    1.97   3.616    0.04     -35
+                 847.47  205.74    0.70   3.712    0.02      12
+                1096.57 2273.30    0.00   3.596    0.02     -30
+
+  Average 50% enclosed flux radius of 3.6378
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:14 16-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.72    1.53   6.436    0.02     -37
+                1090.98  689.05    1.97   6.224    0.04     -35
+                 847.47  205.74    0.70   6.264    0.02      12
+                1096.57 2273.30    0.00   6.164    0.02     -30
+
+  Average full width at half maximum (FWHM) of 6.2306
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:14 16-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.72    1.53   7.199    0.02     -37
+                1090.98  689.05    1.97   7.102    0.04     -35
+                 847.47  205.74    0.70   7.246    0.02      12
+                1096.57 2273.30    0.00   7.019    0.02     -30
+
+  Average full width at half maximum (GFWHM) of 7.1107
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:14 16-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.72    1.53   6.437  4.7    0.02     -37
+                1090.98  689.05    1.97   6.313  4.5    0.04     -35
+                 847.47  205.74    0.70   6.307  3.9    0.02      12
+                1096.57 2273.30    0.00   6.193  4.2    0.02     -30
+
+  Average full width at half maximum (MFWHM) of 6.2647
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:15 16-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+albf07jan2019_w  949.64 2933.70    1.53   3.464    0.02     -32
+                1090.85  689.24    1.95   3.462    0.02     -78
+                 847.38  205.90    0.71   3.480    0.01      74
+                1096.56 2273.18    0.00   3.414    0.01     -30
+
+  Average 50% enclosed flux radius of 3.4422
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:16 16-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+albf07jan2019_w  949.64 2933.70    1.53   5.960    0.02     -32
+                1090.85  689.24    1.95   5.988    0.02     -78
+                 847.38  205.90    0.71   5.968    0.01      74
+                1096.56 2273.18    0.00   5.780    0.01     -30
+
+  Average full width at half maximum (FWHM) of 5.8714
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:16 16-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+albf07jan2019_w  949.64 2933.70    1.53   6.773    0.02     -32
+                1090.85  689.24    1.95   6.776    0.02     -78
+                 847.38  205.90    0.71   6.804    0.01      74
+                1096.56 2273.18    0.00   6.672    0.01     -30
+
+  Average full width at half maximum (GFWHM) of 6.7293
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:16 16-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+albf07jan2019_w  949.64 2933.70    1.53   5.969  4.2    0.02     -32
+                1090.85  689.24    1.95   6.023  4.5    0.02     -78
+                 847.38  205.90    0.71   5.995  4.2    0.01      74
+                1096.56 2273.18    0.00   5.835  4.1    0.01     -30
+
+  Average full width at half maximum (MFWHM) of 5.9111
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:17 16-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.55    1.52   3.950    0.04     -53
+                1090.96  689.06    1.93   3.988    0.01     -80
+                 847.43  205.81    0.70   3.968    0.00     -23
+                1096.56 2273.10    0.00   3.920    0.01     -43
+
+  Average 50% enclosed flux radius of 3.9426
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:18 16-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.55    1.52   6.800    0.04     -53
+                1090.96  689.06    1.93   6.660    0.01     -80
+                 847.43  205.81    0.70   6.816    0.00     -23
+                1096.56 2273.10    0.00   6.672    0.01     -43
+
+  Average full width at half maximum (FWHM) of 6.7261
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:18 16-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.55    1.52   7.680    0.04     -53
+                1090.96  689.06    1.93   7.744    0.01     -80
+                 847.43  205.81    0.70   7.731    0.00     -23
+                1096.56 2273.10    0.00   7.615    0.01     -43
+
+  Average full width at half maximum (GFWHM) of 7.6657
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:18 16-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.55    1.52   6.820  4.5    0.04     -53
+                1090.96  689.06    1.93   6.731  3.9    0.01     -80
+                 847.43  205.81    0.70   6.839  4.3    0.00     -23
+                1096.56 2273.10    0.00   6.689  4.2    0.01     -43
+
+  Average full width at half maximum (MFWHM) of 6.7501
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:19 16-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+albf07jan2019_w  949.77 2933.48    1.51   4.570    0.08     -55
+                1090.98  689.25    1.97   4.375    0.03     -55
+                 847.42  205.94    0.71   4.430    0.04     -42
+                1096.62 2273.08    0.00   4.500    0.05     -49
+
+  Average 50% enclosed flux radius of 4.4792
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:20 16-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+albf07jan2019_w  949.77 2933.48    1.51   7.636    0.08     -55
+                1090.98  689.25    1.97   7.272    0.03     -55
+                 847.42  205.94    0.71   7.196    0.04     -42
+                1096.62 2273.08    0.00   7.392    0.05     -49
+
+  Average full width at half maximum (FWHM) of 7.3602
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:20 16-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+albf07jan2019_w  949.77 2933.48    1.51   8.918    0.08     -55
+                1090.98  689.25    1.97   8.503    0.03     -55
+                 847.42  205.94    0.71   8.584    0.04     -42
+                1096.62 2273.08    0.00   8.724    0.05     -49
+
+  Average full width at half maximum (GFWHM) of 8.6926
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:20 16-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+albf07jan2019_w  949.77 2933.48    1.51   7.830  4.1    0.08     -55
+                1090.98  689.25    1.97   7.559  4.4    0.03     -55
+                 847.42  205.94    0.71   7.443  3.7    0.04     -42
+                1096.62 2273.08    0.00   7.611  3.9    0.05     -49
+
+  Average full width at half maximum (MFWHM) of 7.5895
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:21 16-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.57    1.55   4.460    0.05     -46
+                1090.98  689.18    1.96   4.480    0.04     -46
+                 847.50  205.94    0.71   4.485    0.03     -45
+                1096.64 2273.18    0.00   4.440    0.04     -44
+
+  Average 50% enclosed flux radius of 4.4576
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:21 16-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.57    1.55   7.544    0.05     -46
+                1090.98  689.18    1.96   7.420    0.04     -46
+                 847.50  205.94    0.71   7.372    0.03     -45
+                1096.64 2273.18    0.00   7.236    0.04     -44
+
+  Average full width at half maximum (FWHM) of 7.3267
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:22 16-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.57    1.55   8.707    0.05     -46
+                1090.98  689.18    1.96   8.722    0.04     -46
+                 847.50  205.94    0.71   8.687    0.03     -45
+                1096.64 2273.18    0.00   8.597    0.04     -44
+
+  Average full width at half maximum (GFWHM) of 8.6457
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:22 16-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+albf07jan2019_w  949.69 2933.57    1.55   7.532  3.7    0.05     -46
+                1090.98  689.18    1.96   7.671  4.1    0.04     -46
+                 847.50  205.94    0.71   7.557  3.8    0.03     -45
+                1096.64 2273.18    0.00   7.468  3.8    0.04     -44
+
+  Average full width at half maximum (MFWHM) of 7.5175
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:23 16-Sep-2021
+
+          Image  Column    Line     Mag  Radius   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.53    1.50   5.034    0.04     -81
+                1090.97  688.91    1.96   4.840    0.02      86
+                 847.38  205.57    0.70   4.889    0.05      82
+                1096.63 2272.91    0.00   4.810    0.05      85
+
+  Average 50% enclosed flux radius of 4.8627
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:23 16-Sep-2021
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.53    1.50   9.139    0.04     -81
+                1090.97  688.91    1.96   7.796    0.02      86
+                 847.38  205.57    0.70   7.884    0.05      82
+                1096.63 2272.91    0.00   7.744    0.05      85
+
+  Average full width at half maximum (FWHM) of 7.9663
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:24 16-Sep-2021
+
+          Image  Column    Line     Mag   GFWHM   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.53    1.50   9.819    0.04     -81
+                1090.97  688.91    1.96   9.399    0.02      86
+                 847.38  205.57    0.70   9.508    0.05      82
+                1096.63 2272.91    0.00   9.346    0.05      85
+
+  Average full width at half maximum (GFWHM) of 9.4551
+NOAO/IRAF V2.16 aritra@aritra-X510UNR Thu 08:26:24 16-Sep-2021
+
+          Image  Column    Line     Mag   MFWHM Beta   Ellip      PA SAT
+albf07jan2019_w  949.67 2933.53    1.50   8.680  4.3    0.04     -81
+                1090.97  688.91    1.96   8.236  3.9    0.02      86
+                 847.38  205.57    0.70   8.319  3.9    0.05      82
+                1096.63 2272.91    0.00   8.089  3.7    0.05      85
+
+  Average full width at half maximum (MFWHM) of 8.2402

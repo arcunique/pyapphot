@@ -83,6 +83,11 @@ def filterdict(dictobj:dict, refkey:str, axis:(int,None)=None ,values=None, loli
                     newdict[key] = val[index].reshape(shape)
     return newdict
 
+def store_filenames(files, reject=(), saveto=''):
+    files = filenames2list(files, forcelist=True)
+    with open(saveto, 'w') as fw:
+        fw.writelines([file+'\n' for file in files if file not in reject])
+
 def segregate(x, shape):
     i = 0
     y = []

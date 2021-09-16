@@ -6,7 +6,7 @@ from .utils import *
 from astropy.io import fits
 import pickle as pkl
 from .image_management import gaussfit_psf
-from . import configpath
+from . import _configpath
 from copy import deepcopy as copy
 
 __SIZE_STATS__ = ['Radius','FWHM','GFWHM','MFWHM']
@@ -69,7 +69,7 @@ class starPSF(object):
             self.psfstat = pkl.load(open(loadfrom,'rb'))
         if saveto and self.psfstat: pkl.dump(self.psfstat, open(saveto,'wb'))
 
-    def calculate(self, image=None, coordfile='', statkey='all', saveto=''):
+    def calculate(self, image=None, coordfile='', statkey='all'):
         if not statkey: return
         if not image: image = self._image
         if not image: return
@@ -170,7 +170,6 @@ class starPSF(object):
         if obj!='all':
             if type(obj)==int: obj = [[obj] for _ in image]
             elif isinstance(obj[0], int): obj = [obj for _ in image]
-            print(obj)
             # print(np.any(len(obj[i])!=len(obj[0]) for i in range(1, len(image))))
             for key in stat:
                 # if stat[key].ndim==2 and np.any([len(obj[i])!=len(obj[0]) for i in range(1, len(image))]):
@@ -181,7 +180,11 @@ class starPSF(object):
         if return_dict or saveto:
             stat['image'] = image
             stat['coordfile'] = _coordfile
-            stat['Nobject'] = [len(ob) for ob in obj]
+            if obj is not 'all':
+                stat['Nobject'] = [len(ob) for ob in obj]
+            else:
+                # print(_Nobject, imind)
+                stat['Nobject'] = [_Nobject[i] for i in range(len(_Nobject)) if imind[i]]
         if saveto: pkl.dump(open(saveto,'wb'), stat)
         return stat if return_dict else [stat[key] for key in statkey]
 
@@ -217,31 +220,49 @@ class starPSF(object):
                 immet.append(list(_image[np.logical_not(crinotmet[i])]))
                 if not np.any(crinotmet[i]): message = f'object {i}: conditions met by all the images.'
                 elif np.all(crinotmet[i]): message = f'object {i}: conditions not met by any image.'
-                else: message = f'object {i}: conditions not met by {len(imnotmet)} image(s).'
+                else: message = f'object {i+1}: conditions not met by {len(imnotmet)} image(s).'
                 print(message)
                 if Nfiledelmax:
-                    if len(imnotmet)<Nfiledelmax: imdel[i] = imnotmet
+                    if len(imnotmet)<=Nfiledelmax: imdel[i] = imnotmet
                     else:
-                        imdel[i] = None
+                        imdel[i] = []
                         removeobj.append(i)
-            if not Nfiledelmax: return immet, dict(delete_image_set=None, delete_image_array=None, remove_obj=None)
+            if not Nfiledelmax: return immet, dict(delete_images=None, remove_obj=None)
             imdelset = list(set([idl for idel in imdel if len(idel)!=0 for idl in idel]))
-            if len(imdelset)<=Nfiledelmax: return immet, dict(delete_image_set=imdelset, delete_image_array=None, remove_obj=removeobj)
-            return immet, dict(delete_image_array=immet, delete_image_set=None, remove_obj=removeobj)
+            if len(imdelset)<=Nfiledelmax: return immet, dict(delete_images=imdelset, remove_obj=removeobj)
+            return immet, dict(keep_images=immet, remove_obj=removeobj)
+
+    def adjust_coordfile(self, remove_obj):
+        psfstat = self.psfstat.copy()
+        _coordfile = psfstat.pop('coordfile')
+        _coordfile = set(_coordfile)
+        for coofile in _coordfile:
+            with open(coofile, 'r') as fr:
+                lines = fr.readlines()
+            i = 0
+            for line in lines:
+                if '#' not in line:
+                    if i in remove_obj:
+                        lines[i] = None
+                    i += 1
+            lines = [line for line in lines if line is not None]
+            with open(coofile, 'w') as fw:
+                fw.writelines(lines)
+
 
 
 def apphot(image,coordfile,instrument,fwhm,skysig,aperture,skypos,output,countrange=('',''),instrupath=None):
     from configparser import ConfigParser
     parser = ConfigParser()
-    if not instrupath: parser.read(os.path.join(configpath,instrument))
+    if not instrupath: parser.read(os.path.join(_configpath, instrument))
     else: parser.read(os.path.join(instrupath,instrument))
     indefflag = {}
     try:
         gain = parser.get('header_keys', 'gain'), 'indef'
-        gi = 0
+        gainval = fits.getheader(filenames2list(image, forcelist=True)[0])[gain[0]]
     except:
         gain = '', parser.get('values', 'gain')
-        gi = 1
+        gainval = gain[1]
     try: readnoise = parser.get('header_keys', 'readnoise'), 'indef'
     except: readnoise = '', parser.get('values', 'readnoise')
     try: exptime = parser.get('header_keys', 'exposure'), 'indef'
@@ -273,7 +294,7 @@ def apphot(image,coordfile,instrument,fwhm,skysig,aperture,skypos,output,countra
     td.datamax = countrange[1] if countrange[1] != '' else 'INDEF'
     td.noise = 'poisson'
     td.gain, td.epadu = gain
-    td.ccdread, td.readnois, = readnoise
+    td.ccdread, td.readnois = readnoise
     td.exposure, td.itime = exptime
     td.airmass, td.xairmass = airmass
     td.filter, td.ifilter = filter
@@ -284,9 +305,8 @@ def apphot(image,coordfile,instrument,fwhm,skysig,aperture,skypos,output,countra
     task.photpars.zmag = 25
     task.photpars.mkapert = 'no'
     task.photpars.apertures = ','.join(np.array(aperture, dtype=str))
-    print(image)
     task(image=image, output=output)
-    return indefflag, float(gain[gi])
+    return indefflag, float(gainval)
 
 
 
@@ -341,7 +361,8 @@ class aperture_phot(object):
         output = kwargs.setdefault('output',self._getlatestfilename('photop.mag'))
         imstat = kwargs.pop('imstat')
         if type(imstat)==str: imstat = pkl.load(open(imstat,'rb'))
-        imstat = filterdict(imstat, 'image', image)
+        # print(image)
+        imstat = filterdict(imstat, 'image', values=image)
         if type(imstat) == str: imstat = pkl.load(open(imstat, 'rb'))
         _ = kwargs.setdefault('fwhm',imstat['fwhm'].mean())
         _ = kwargs.setdefault('skysig',imstat['skysig'].mean())
@@ -354,6 +375,7 @@ class aperture_phot(object):
             res = list(self._getfrommagfile(output[0], get_t=not flag['obstime'], get_apert=False, get_others=True))
             if not flag['obstime']:
                 t = res.pop(0)
+                # print(t, Nobj)
                 self.t = np.array([t[i] for i in np.insert(np.cumsum(Nobj[:-1]),0,0)])
             exptime, stdev, nsky, flux, area, mag = res
             exptime = segregate(exptime, Nobj)
@@ -430,6 +452,31 @@ class aperture_phot(object):
         for key in data:
             self.__setattr__(key, data.get(key, []))
 
+    def set_t(self, key):
+        images = self.photdata['image']
+        self.t = np.zeros(len(images))
+        for i, image in enumerate(images):
+            h = fits.getheader(image)
+            self.t[i] = float(h[key])
+        self.photdata['t'] = self.t
+
+    def plot_aperture_growth_curve(self, images='all', objects='all', apertures='all', ax=None):
+        photdata = self.photdata.copy()
+        if images is not 'all':
+            photdata = filterdict(photdata, 'image', values=images)['mag']
+        if apertures is not 'all':
+            photdata = filterdict(photdata, 'aperture', values=apertures)
+        mag = photdata['mag']
+        apertures = photdata['aperture']
+        magdiff = np.diff(mag, axis=2)
+        if objects is 'all':
+            objects = slice(None,None,1)
+        for i in range(mag.shape[0]):
+            dmag = magdiff[i,objects,:].mean(0)
+            if ax is not None:
+                ax.plot(apertures[:-1], dmag)
+        return magdiff[:,objects,:].mean(1)
+
     def differential_photometry(self,image=None,objpair=(0,1),aperture=5):
         '''
         Perfomrs differential photometry
@@ -443,8 +490,8 @@ class aperture_phot(object):
         if not image:
             photdata = self._photdata.copy()
         else:
-            photdata = filterdict(self.photdata,'image',image)
-        photdata = filterdict(photdata,'aperture',aperture)
+            photdata = filterdict(self.photdata,'image', values=image)
+        photdata = filterdict(photdata,'aperture', values=aperture)
         flux, ferr = photdata['flux'], photdata['ferr']
         mag, merr = photdata['mag'], photdata['merr']
         dflux = flux[:,objpair[0],:]/flux[:,objpair[1],:]

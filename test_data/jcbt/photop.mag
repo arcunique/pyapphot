@@ -1,0 +1,155 @@
+#K IRAF       = NOAO/IRAFV2.16          version    %-23s     
+#K USER       = aritra                  name       %-23s     
+#K HOST       = aritra-X510UNR          computer   %-23s     
+#K DATE       = 2021-09-16              yyyy-mm-dd %-23s     
+#K TIME       = 09:31:16                hh:mm:ss   %-23s     
+#K PACKAGE    = apphot                  name       %-23s     
+#K TASK       = phot                    name       %-23s     
+#
+#K SCALE      = 1.                      units      %-23.7g   
+#K FWHMPSF    = 2.5                     scaleunit  %-23.7g   
+#K EMISSION   = yes                     switch     %-23b     
+#K DATAMIN    = INDEF                   counts     %-23.7g   
+#K DATAMAX    = INDEF                   counts     %-23.7g   
+#K EXPOSURE   = ""                      keyword    %-23s     
+#K AIRMASS    = ""                      keyword    %-23s     
+#K FILTER     = ""                      keyword    %-23s     
+#K OBSTIME    = date-obs                keyword    %-23s     
+#
+#K NOISE      = poisson                 model      %-23s     
+#K SIGMA      = INDEF                   counts     %-23.7g   
+#K GAIN       = ""                      keyword    %-23s     
+#K EPADU      = 1.                      e-/adu     %-23.7g   
+#K CCDREAD    = ""                      keyword    %-23s     
+#K READNOISE  = 0.                      e-         %-23.7g   
+#
+#K CALGORITHM = centroid                algorithm  %-23s     
+#K CBOXWIDTH  = 5.                      scaleunit  %-23.7g   
+#K CTHRESHOLD = 0.                      sigma      %-23.7g   
+#K MINSNRATIO = 1.                      number     %-23.7g   
+#K CMAXITER   = 10                      number     %-23d     
+#K MAXSHIFT   = 1.                      scaleunit  %-23.7g   
+#K CLEAN      = no                      switch     %-23b     
+#K RCLEAN     = 1.                      scaleunit  %-23.7g   
+#K RCLIP      = 2.                      scaleunit  %-23.7g   
+#K KCLEAN     = 3.                      sigma      %-23.7g   
+#
+#K SALGORITHM = centroid                algorithm  %-23s     
+#K ANNULUS    = 10.                     scaleunit  %-23.7g   
+#K DANNULUS   = 10.                     scaleunit  %-23.7g   
+#K SKYVALUE   = 0.                      counts     %-23.7g   
+#K KHIST      = 3.                      sigma      %-23.7g   
+#K BINSIZE    = 0.1                     sigma      %-23.7g   
+#K SMOOTH     = no                      switch     %-23b     
+#K SMAXITER   = 10                      number     %-23d     
+#K SLOCLIP    = 0.                      percent    %-23.7g   
+#K SHICLIP    = 0.                      percent    %-23.7g   
+#K SNREJECT   = 50                      number     %-23d     
+#K SLOREJECT  = 3.                      sigma      %-23.7g   
+#K SHIREJECT  = 3.                      sigma      %-23.7g   
+#K RGROW      = 0.                      scaleunit  %-23.7g   
+#
+#K WEIGHTING  = constant                model      %-23s     
+#K APERTURES  = 3.                      scaleunit  %-23s     
+#K ZMAG       = 25.                     zeropoint  %-23.7g   
+#
+#N IMAGE               XINIT     YINIT     ID    COORDS                 LID    \
+#U imagename           pixels    pixels    ##    filename               ##     \
+#F %-23s               %-10.3f   %-10.3f   %-6d  %-23s                  %-6d    
+#
+#N XCENTER    YCENTER    XSHIFT  YSHIFT  XERR    YERR            CIER CERROR   \
+#U pixels     pixels     pixels  pixels  pixels  pixels          ##   cerrors  \
+#F %-14.3f    %-11.3f    %-8.3f  %-8.3f  %-8.3f  %-15.3f         %-5d %-9s      
+#
+#N MSKY           STDEV          SSKEW          NSKY   NSREJ     SIER SERROR   \
+#U counts         counts         counts         npix   npix      ##   serrors  \
+#F %-18.7g        %-15.7g        %-15.7g        %-7d   %-9d      %-5d %-9s      
+#
+#N ITIME          XAIRMASS       IFILTER                OTIME                  \
+#U timeunit       number         name                   timeunit               \
+#F %-18.7g        %-15.7g        %-23s                  %-23s                   
+#
+#N RAPERT   SUM           AREA       FLUX          MAG    MERR   PIER PERROR   \
+#U scale    counts        pixels     counts        mag    mag    ##   perrors  \
+#F %-12.2f  %-14.7g       %-11.7g    %-14.7g       %-7.3f %-6.3f %-5d %-9s      
+#
+albf07jan2019_wasp50_R_949.677   2933.691  1     new_bf_07jan2019_wasp501      \
+   949.495    2934.037   -0.182  0.346   0.005   0.008          0    NoError   \
+   190.4408       19.86994       10.93716       899    39       0    NoError   \
+   1.             INDEF          INDEF                  17:57:08.939           \
+   3.00     109018.3      28.78022   103537.3      12.462 0.004 0    NoError    
+albf07jan2019_wasp50_R_1090.975  689.042   2     new_bf_07jan2019_wasp502      \
+   1091.058   688.954    0.083   -0.088  0.011   0.011          0    NoError   \
+   186.0046       19.60672       7.614485       933    8        0    NoError   \
+   1.             INDEF          INDEF                  17:57:08.939           \
+   3.00     74966.48      28.38074   69687.52      12.892 0.004 0    NoError    
+albf07jan2019_wasp50_R_847.451   205.723   3     new_bf_07jan2019_wasp503      \
+   847.567    205.613    0.116   -0.110  0.004   0.004          0    NoError   \
+   203.6447       28.72594       22.60641       876    71       0    NoError   \
+   1.             INDEF          INDEF                  17:57:08.939           \
+   3.00     224264.5      28.39792   218481.4      11.651 0.002 0    NoError    
+albf07jan2019_wasp50_R_1096.591  2273.275  4     new_bf_07jan2019_wasp504      \
+   1096.524   2273.480   -0.067  0.206   0.003   0.003          0    NoError   \
+   217.7648       35.09637       31.03683       816    136      0    NoError   \
+   1.             INDEF          INDEF                  17:57:08.939           \
+   3.00     440242.8      28.27868   434084.7      10.906 0.002 0    NoError    
+albf07jan2019_wasp50_R_949.677   2933.691  5     new_bf_07jan2019_wasp501      \
+   949.493    2933.778   -0.184  0.087   0.005   0.007          0    NoError   \
+   177.0962       13.9971        10.8839        898    43       0    NoError   \
+   1.             INDEF          INDEF                  17:59:56.810           \
+   3.00     113926.8      28.51087   108877.6      12.408 0.003 0    NoError    
+albf07jan2019_wasp50_R_1090.975  689.042   6     new_bf_07jan2019_wasp502      \
+   1090.961   689.214    -0.014  0.172   0.009   0.009          0    NoError   \
+   173.1244       12.30692       8.928546       916    27       0    NoError   \
+   1.             INDEF          INDEF                  17:59:56.810           \
+   3.00     78596.22      28.50816   73660.77      12.832 0.004 0    NoError    
+albf07jan2019_wasp50_R_847.451   205.723   7     new_bf_07jan2019_wasp503      \
+   847.538    205.832    0.087   0.109   0.004   0.005          0    NoError   \
+   186.437        16.64576       12.51176       798    141      0    NoError   \
+   1.             INDEF          INDEF                  17:59:56.810           \
+   3.00     235254.2      28.54576   229932.2      11.596 0.002 0    NoError    
+albf07jan2019_wasp50_R_1096.591  2273.275  8     new_bf_07jan2019_wasp504      \
+   1096.500   2273.306   -0.091  0.031   0.002   0.003          0    NoError   \
+   200.6187       21.32361       18.0448        731    211      0    NoError   \
+   1.             INDEF          INDEF                  17:59:56.810           \
+   3.00     459662.       28.45458   453953.4      10.857 0.002 0    NoError    
+albf07jan2019_wasp50_R_949.677   2933.691  9     new_bf_07jan2019_wasp501      \
+   949.480    2933.685   -0.197  -0.006  0.006   0.008          0    NoError   \
+   180.6576       12.73545       8.472692       828    117      0    NoError   \
+   1.             INDEF          INDEF                  18:02:44.808           \
+   3.00     92981.02      28.45242   87840.87      12.641 0.004 0    NoError    
+albf07jan2019_wasp50_R_1090.975  689.042   10    new_bf_07jan2019_wasp502      \
+   1090.944   689.355    -0.031  0.313   0.012   0.010          0    NoError   \
+   177.2706       13.48137       10.79523       904    36       0    NoError   \
+   1.             INDEF          INDEF                  18:02:44.808           \
+   3.00     64375.65      28.64138   59298.37      13.067 0.005 0    NoError    
+albf07jan2019_wasp50_R_847.451   205.723   11    new_bf_07jan2019_wasp503      \
+   847.525    205.940    0.074   0.217   0.005   0.006          0    NoError   \
+   194.0509       20.06208       14.92836       783    157      0    NoError   \
+   1.             INDEF          INDEF                  18:02:44.808           \
+   3.00     190738.1      28.73871   185161.4      11.831 0.003 0    NoError    
+albf07jan2019_wasp50_R_1096.591  2273.275  12    new_bf_07jan2019_wasp504      \
+   1096.505   2273.253   -0.086  -0.022  0.003   0.004          0    NoError   \
+   208.3361       24.46676       20.3867        707    235      0    NoError   \
+   1.             INDEF          INDEF                  18:02:44.808           \
+   3.00     366174.1      28.49266   360238.1      11.109 0.002 0    NoError    
+albf07jan2019_wasp50_R_949.677   2933.691  13    new_bf_07jan2019_wasp501      \
+   949.566    2933.648   -0.111  -0.043  0.008   0.009          0    NoError   \
+   183.1857       15.91916       11.46509       826    119      0    NoError   \
+   1.             INDEF          INDEF                  18:05:33.058           \
+   3.00     72977.02      28.42032   67770.82      12.922 0.004 0    NoError    
+albf07jan2019_wasp50_R_1090.975  689.042   14    new_bf_07jan2019_wasp502      \
+   1091.022   689.264    0.047   0.222   0.014   0.015          0    NoError   \
+   181.6111       17.21299       12.88249       910    33       0    NoError   \
+   1.             INDEF          INDEF                  18:05:33.058           \
+   3.00     53093.85      28.58596   47902.32      13.299 0.005 0    NoError    
+albf07jan2019_wasp50_R_847.451   205.723   15    new_bf_07jan2019_wasp503      \
+   847.477    205.885    0.026   0.162   0.006   0.008          0    NoError   \
+   198.4696       23.42113       18.20681       767    171      0    NoError   \
+   1.             INDEF          INDEF                  18:05:33.058           \
+   3.00     156981.9      28.63416   151298.9      12.050 0.003 0    NoError    
+albf07jan2019_wasp50_R_1096.591  2273.275  16    new_bf_07jan2019_wasp504      \
+   1096.550   2273.302   -0.041  0.027   0.004   0.005          0    NoError   \
+   213.9003       29.94573       25.8945        690    255      0    NoError   \
+   1.             INDEF          INDEF                  18:05:33.058           \
+   3.00     288373.8      28.45963   282286.3      11.373 0.002 0    NoError    
